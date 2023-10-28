@@ -39,7 +39,7 @@ main {
   transform: translate(-50%, 5%);
 
   background-color: white;
-  background-image: url(/imagens/pexels-javid-hashimov-18273582-2.jpg);
+  background-image: url(../imagens/pexels-javid-hashimov-18273582-2.jpg);
   background-position: center top;
   background-size: cover;
   border-radius: 20px;
