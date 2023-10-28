@@ -141,3 +141,9 @@ article > p {
   background-color: var(--verde_mais_claro);
   transition: 0.5s;
 }
+
+.transicao-suave {
+  transition-property: all;
+  transition-duration: 0.3s; /* Duration of the transition */
+  transition-timing-function: ease-in-out; /* Timing function for the animation */
+}
