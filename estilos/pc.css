@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 900px) {
+  main {
+    width: 900px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+
+    background-position: center right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  /* article */
+  article {
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 0%;
+    margin-right: 50%;
+    height: 360px;
+    width: 50%;
+
+    padding-top: 30px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.455) inset;
+    
+  }
+  article p {
+    margin-bottom: 50px;
+  }
+
+  /* .campo_container */
+  .campo_container {
+    width: 450px;
+  }
+  .campo_container i {
+    position: absolute;
+    top: 9px;
+    left: 20px;
+  }
+  .campo_container input {
+    font-size: 1.2em;
+    width: 380px;
+  }
+
+  #btn_sumete {
+    width: 450px;
+  }
+
+  #btn_esqueceu {
+    width: 450px;
+  }
+}

@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    background-image: linear-gradient(0deg, #49a09d, #5f2c82);
+    background-attachment: fixed;
+  }
+
+  main {
+    width: 86vw;
+    height: 330px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+
+    background-position: right center;
+  }
+
+  article {
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 0%;
+    margin-left: 38%;
+    height: 310px;
+    width: 60%;
+  }
+
+  .campo_container {
+    width: 52vw;
+  }
+  .campo_container i {
+    position: absolute;
+    top: 9px;
+    left: 20px;
+  
+  }
+  .campo_container input {
+    font-size: 1.2em;
+    width: 44vw;
+  }
+
+  #btn_sumete {
+    width: 52vw;
+  }
+  
+  #btn_esqueceu {
+    width: 52vw;
+  }
+}
